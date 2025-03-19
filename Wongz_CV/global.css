@@ -1,0 +1,134 @@
+.bodyCntr{
+    background-image: url("images2.jpg");
+    background-color: rgba(215, 243, 250, 0);
+}
+
+.padding{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+.main{
+    background-color: rgb(57, 156, 196);
+    display: flex;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.897);
+}
+
+.nav{
+    background-color:rgba(27, 131, 179, 0.685);
+    color: #05dd059d;
+    padding: 10px 0 10px 0;
+    width: 10%;
+    display: flex;
+    /* justify-content: center;*/
+    flex-direction: column;
+    min-width: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media screen and (max-width: 500px){
+
+    .nav{
+        display: none;
+    }
+}
+.mainbody{
+    background-color: #185b75;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    /*justify-content: center; */
+    flex-direction: column;
+    min-width: 60px;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.HeaderOne{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.MyBio{
+    background-color: rgb(26, 108, 146);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    min-width: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 500px;) {
+    .MyBio{
+        flex-direction: column;
+    }
+}
+.MySkills{
+    background-color: rgba(10, 25, 31, 0.466);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    min-width: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 500px) {
+    .MySkills{
+        flex-direction: column;
+    }
+}
+.MyQualification{
+    background-color: rgb(141, 141, 141);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+     /* justify-content: center; */
+     flex-direction: column;
+     min-width: 60px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 500px) {
+
+    .MyQualification{
+        flex-direction: column;
+    }
+}
+.MyRef{
+    background-color: #264677;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+     /* justify-content: center; */
+     flex-direction: column;
+     min-width: 60px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 500px) {
+    
+}
+
+    .MyRef{
+        flex-direction: column;
+    }
+
+    
